@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="navbar">
+        <div class="topnav" id="myTopnav">
+          <img src="images/logo.svg" id="logo">
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Projects</a>
+          <button href="">Contact</button>
+        </div> 
+      </div>
+
+      <div class="content-header">
+        <h1>WE ARE CREATIVES</h1>
+        <img src="images/desktop/image-header.jpg" id="content-header">
+        <img src="images/icon-arrow-down.svg" id="icon-arrow-down">
+      </div>
+    </div>
+    
+    <div class="content-body">
+      <div class="transform-brand">
+        <h1>Transform your brand</h1>
+        <p>We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="">LEARN MORE</a>
+      </div>
+      <div class="transform-brand-2">
+        <img src="images/desktop/image-transform.jpg">
+      </div>
+      
+      <div class="stand-out">
+        <img src="images/desktop/image-stand-out.jpg">
+      </div>
+      <div class="stand-out-2">
+        <h1>Stand out to the right audience</h1>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers,
+          and copywriters, we’ll build and extend your brand in digital places. 
+        </p>
+        <a href="">LEARN MORE</a>
+      </div>
+
+      <div class="graphic-design">
+        <h3>Graphic design</h3>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+      <div class="photography">
+        <h3>Photography</h3>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>  
+    </div>
+
+    <div class="testimoni">
+      <h3>CLIENT TESTIMONIALS</h3>
+      <div class="client">
+        <div class="emily">
+          <img src="images/image-emily.jpg">
+          <p class="testi">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h4 class="name">Emily R.</h4>
+          <p class="job">Marketing Director</p>
+        </div>
+        <div class="thomas">
+          <img src="images/image-thomas.jpg">
+          <p class="testi">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <h4 class="name">Thomas S.</h4>
+          <p class="job">Chief Operating Officer</p>
+        </div>
+        <div class="jennie">
+          <img src="images/image-jennie.jpg">
+          <p class="testi">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h4 class="name">Jennie F.</h4>
+          <p class="job">Business Owner</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="g1"></div>
+      <div class="g2"></div>
+      <div class="g3"></div>
+      <div class="g4"></div>
+    </div>
+  
+    <div class="footer">
+      <img src="images/logo-green.svg">
+      <div class="menu">
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Projects</a>
+      </div>
+
+      <div class="sosmed">
+        <a href="">
+          <img src="images/icon-facebook.svg">
+        </a>
+        <a href="">
+          <img src="images/icon-instagram.svg">
+        </a>
+        <a href="">
+          <img src="images/icon-twitter.svg">
+        </a>
+        <a href="">
+          <img src="images/icon-pinterest.svg">
+        </a>
+      </div>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Nur Annisa Permata</a>.
+      </div>
+    </div>
+  </div>
+
+  <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+ 
+
+</body>
+</html>
